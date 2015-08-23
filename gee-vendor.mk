@@ -125,6 +125,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/system/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/gee/proprietary/system/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/lge/gee/proprietary/system/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
+	vendor/lge/gee/proprietary/system/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/lge/gee/proprietary/system/lib/libqdi.so:system/lib/libqdi.so \
     vendor/lge/gee/proprietary/system/lib/libqdp.so:system/lib/libqdp.so \
     vendor/lge/gee/proprietary/system/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
@@ -186,3 +187,54 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/system/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/lge/gee/proprietary/system/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/lge/gee/proprietary/system/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so
+    vendor/lge/gee/proprietary/system/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
+    vendor/lge/gee/proprietary/system/lib/libadsprpc.so:system/lib/libadsprpc.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_imx074_video_hd.so:system/lib/libchromatix_imx074_video_hd.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_imx074_zsl.so:system/lib/libchromatix_imx074_zsl.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_imx111_video_hd.so:system/lib/libchromatix_imx111_video_hd.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_imx119_vt.so:system/lib/libchromatix_imx119_vt.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_imx132_default_video.so:system/lib/libchromatix_imx132_default_video.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_imx132_preview.so:system/lib/libchromatix_imx132_preview.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_imx132_vt.so:system/lib/libchromatix_imx132_vt.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_imx135_default_video.so:system/lib/libchromatix_imx135_default_video.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_imx135_preview.so:system/lib/libchromatix_imx135_preview.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_imx135_video_hdr.so:system/lib/libchromatix_imx135_video_hdr.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_imx135_video_hd.so:system/lib/libchromatix_imx135_video_hd.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_imx135_zsl.so:system/lib/libchromatix_imx135_zsl.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_ov2720_default_video.so:system/lib/libchromatix_ov2720_default_video.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_ov2720_hfr.so:system/lib/libchromatix_ov2720_hfr.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_ov2720_preview.so:system/lib/libchromatix_ov2720_preview.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_ov2720_zsl.so:system/lib/libchromatix_ov2720_zsl.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_ov5693_default_video.so:system/lib/libchromatix_ov5693_default_video.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_ov5693_preview.so:system/lib/libchromatix_ov5693_preview.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_ov5693_zsl.so:system/lib/libchromatix_ov5693_zsl.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_ov8825_video_hfr_120fps.so:system/lib/libchromatix_ov8825_video_hfr_120fps.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_ov8825_video_hfr_60fps.so:system/lib/libchromatix_ov8825_video_hfr_60fps.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_ov8825_video_hfr_90fps.so:system/lib/libchromatix_ov8825_video_hfr_90fps.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_ov8825_video_hfr.so:system/lib/libchromatix_ov8825_video_hfr.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_ov8825_zsl.so:system/lib/libchromatix_ov8825_zsl.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_s5k3l1yx_default_video.so:system/lib/libchromatix_s5k3l1yx_default_video.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_s5k3l1yx_hfr_120fps.so:system/lib/libchromatix_s5k3l1yx_hfr_120fps.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_s5k3l1yx_hfr_60fps.so:system/lib/libchromatix_s5k3l1yx_hfr_60fps.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_s5k3l1yx_hfr_90fps.so:system/lib/libchromatix_s5k3l1yx_hfr_90fps.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_s5k3l1yx_preview.so:system/lib/libchromatix_s5k3l1yx_preview.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_s5k3l1yx_video_hd.so:system/lib/libchromatix_s5k3l1yx_video_hd.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_s5k3l1yx_zsl.so:system/lib/libchromatix_s5k3l1yx_zsl.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_s5k4e5ya_default_video.so:system/lib/libchromatix_s5k4e5ya_default_video.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_s5k4e5ya_preview.so:system/lib/libchromatix_s5k4e5ya_preview.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_s5k4e5ya_zsl.so:system/lib/libchromatix_s5k4e5ya_zsl.so \
+    vendor/lge/gee/proprietary/system/lib/libHDR.so:system/lib/libHDR.so \
+    vendor/lge/gee/proprietary/system/lib/libmmcamera_3a_legacy.so:system/lib/libmmcamera_3a_legacy.so \
+    vendor/lge/gee/proprietary/system/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
+    vendor/lge/gee/proprietary/system/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/lge/gee/proprietary/system/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
+    vendor/lge/gee/proprietary/system/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
+    vendor/lge/gee/proprietary/system/lib/libmmcamera_tintless_wrapper.so:system/lib/libmmcamera_tintless_wrapper.so \
+    vendor/lge/gee/proprietary/system/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/lge/gee/proprietary/system/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
+    vendor/lge/gee/proprietary/system/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
+    vendor/lge/gee/proprietary/system/lib/libmorpho_movie_stabilization.so:system/lib/libmorpho_movie_stabilization.so \
+    vendor/lge/gee/proprietary/system/lib/libmorpho_panorama_gp.so:system/lib/libmorpho_panorama_gp.so \
+    vendor/lge/gee/proprietary/system/lib/libmorpho_panorama_wa_viewer.so:system/lib/libmorpho_panorama_wa_viewer.so

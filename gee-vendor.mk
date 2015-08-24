@@ -173,6 +173,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/system/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/lge/gee/proprietary/system/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/lge/gee/proprietary/system/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_imx091_default_video.so:system/lib/libchromatix_imx091_default_video.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_imx091_preview.so:system/lib/libchromatix_imx091_preview.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_imx091_video_hd.so:system/lib/libchromatix_imx091_video_hd.so \
+    vendor/lge/gee/proprietary/system/lib/libchromatix_imx091_zsl.so:system/lib/libchromatix_imx091_zsl.so	\
     vendor/lge/gee/proprietary/system/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/lge/gee/proprietary/system/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/lge/gee/proprietary/system/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \

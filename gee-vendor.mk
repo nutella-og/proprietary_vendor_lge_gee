@@ -54,8 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/system/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
     vendor/lge/gee/proprietary/system/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
     vendor/lge/gee/proprietary/system/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
-    vendor/lge/gee/proprietary/system/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
-    vendor/lge/gee/proprietary/system/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
     vendor/lge/gee/proprietary/system/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
     vendor/lge/gee/proprietary/system/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/lge/gee/proprietary/system/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \

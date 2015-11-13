@@ -190,7 +190,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/system/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/lge/gee/proprietary/system/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/lge/gee/proprietary/system/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
-    vendor/lge/gee/proprietary/system/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+    vendor/lge/gee/proprietary/system/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
     vendor/lge/gee/proprietary/system/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/lge/gee/proprietary/system/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
     vendor/lge/gee/proprietary/system/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \

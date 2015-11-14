@@ -249,3 +249,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/system/vendor/firmware/discretix/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02 \
     vendor/lge/gee/proprietary/system/vendor/firmware/discretix/dxhdcp2.b03:system/vendor/firmware/discretix/dxhdcp2.b03 \
     vendor/lge/gee/proprietary/system/vendor/firmware/discretix/dxhdcp2.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt 
+
+#DRM
+    PRODUCT_COPY_FILES += \
+    vendor/lge/gee/proprietary/system/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
+    vendor/lge/gee/proprietary/system/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/lge/gee/proprietary/system/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/lge/gee/proprietary/system/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/lge/gee/proprietary/system/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/lge/gee/proprietary/system/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so

@@ -19,7 +19,6 @@ DEVICE_PACKAGE_OVERLAYS := vendor/lge/gee/overlay
 
 # Builder instructions about what proprietary files to include
 PRODUCT_COPY_FILES += \
-    vendor/lge/gee/proprietary/system/app/GoogleCamera.apk:system/app/GoogleCamera.apk \
     vendor/lge/gee/proprietary/system/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/lge/gee/proprietary/system/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/lge/gee/proprietary/system/bin/btnvtool:system/bin/btnvtool \

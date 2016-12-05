@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/system/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
     vendor/lge/gee/proprietary/system/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/lge/gee/proprietary/system/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
-    vendor/lge/gee/proprietary/system/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/lge/gee/proprietary/system/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/lge/gee/proprietary/system/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
     vendor/lge/gee/proprietary/system/lib/libacdbdata.so:system/lib/libacdbdata.so \
@@ -96,14 +95,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/system/lib/libdsucsd.so:system/lib/libdsucsd.so \
     vendor/lge/gee/proprietary/system/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/lge/gee/proprietary/system/lib/libgemini.so:system/lib/libgemini.so \
-    vendor/lge/gee/proprietary/system/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/lge/gee/proprietary/system/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/lge/gee/proprietary/system/lib/libidl.so:system/lib/libidl.so \
     vendor/lge/gee/proprietary/system/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
     vendor/lge/gee/proprietary/system/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/lge/gee/proprietary/system/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
-    vendor/lge/gee/proprietary/system/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/lge/gee/proprietary/system/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lge/gee/proprietary/system/lib/libmercury.so:system/lib/libmercury.so \
     vendor/lge/gee/proprietary/system/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/lge/gee/proprietary/system/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
